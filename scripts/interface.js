@@ -18,9 +18,7 @@ function handleClick(event){
     setTimeout(() => {
       alert ("You win, the game is over!!" + `the winner is player '${playerTime +  1}`)
     }, 10);
-
   }
-
     updateSquares(position);
 }
 
@@ -34,5 +32,3 @@ function updateSquares(position){
 		let symbol = board[position];
 		square.innerHTML = `<div class='${symbol}'</div>`
 }
-
-
